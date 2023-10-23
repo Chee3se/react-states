@@ -1,7 +1,6 @@
 import styles from "./Counter.module.css"
 import {useState} from "react"
-import CounterButton from "./CounterButton"
-import CounterInput from "./CounterInput"
+import { CounterButton, CounterInput } from "./Components" 
 export default function Counter() {
     const [number, setNumber] = useState(0)
     const [multiplier, setMultiplier] = useState(1)
